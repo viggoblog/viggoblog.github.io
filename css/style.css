@@ -177,12 +177,12 @@ body {
 }
 .logo {
   display: block;
-  width: 150px;
-  height: 24px;
+  width: 300px;
+  height: 48px;
   background: url("images/logo.png") no-repeat;
-  -webkit-background-size: 150px 24px;
-  -moz-background-size: 150px 24px;
-  background-size: 150px 24px;
+  -webkit-background-size: 300px 48px;
+  -moz-background-size: 300px 48px;
+  background-size: 300px 48px;
   text-indent: -9999px;
 }
 @media screen and (min-width: 768px) {
@@ -365,8 +365,7 @@ body {
 #header {
   height: 0px;
   position: relative;
-  background: #3a3f41;
-  margin-bottom: 50px;
+  background: #fff;
   padding: 0px 20px;
   -webkit-transition: height 0.2s ease-in;
   -moz-transition: height 0.2s ease-in;
@@ -391,13 +390,13 @@ body {
 }
 #main-nav {
   position: relative;
-  float: left;
+  float: right;
   top: 37px;
 }
 .nav-icon,
 .main-nav-link {
   float: left;
-  color: #fff;
+  color: #000;
   text-decoration: none;
   -webkit-transition: color 0.2s;
   -moz-transition: color 0.2s;
@@ -1108,14 +1107,14 @@ a.article-title:hover {
 }
 #page-nav .current {
   font-weight: bold;
-  background: #00a9db;
+  background: #f5f5f5;
   color: #fff;
 }
 #page-nav .space {
   color: #ddd;
 }
 #footer {
-  background: #3a3f41;
+  background: #fff;
   padding: 50px 20px;
   border-top: 1px solid #ddd;
   color: #999;
@@ -1380,7 +1379,7 @@ pre .javascript .function {
     width: 100%;
     max-height: 1000px;
     overflow: hidden;
-    background: #3686be;
+    background: #fff;
     -webkit-transition: max-height 0.2s linear;
     -moz-transition: max-height 0.2s linear;
     -ms-transition: max-height 0.2s linear;
@@ -1398,14 +1397,14 @@ pre .javascript .function {
   }
   .mobile-nav-link {
     display: block;
-    color: #fff;
+    color: #000;
     text-align: center;
     text-decoration: none;
     padding: 15px 20px;
     font-weight: 300;
   }
   .mobile-nav-link:hover {
-    background-color: #2172ab;
+    background-color: #f5f5f5;
   }
   #sidebar {
     display: none;
